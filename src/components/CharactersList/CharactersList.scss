@@ -8,12 +8,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-.character-list-spinner{
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  position: absolute;
-}
 .character-list-search{
   margin-top: 15px;
   position: relative;
@@ -33,10 +27,10 @@
   font-size: 36px;
   margin-top: 150px;
 }
-.css-1x51dt5-MuiInputBase-input-MuiInput-input { //style mui input
+.css-1x51dt5-MuiInputBase-input-MuiInput-input, .css-mnn31 { //style mui input
   color: #fff!important;
 }
-.css-18lrjg1-MuiCircularProgress-root{ // style mui loading circle
+.css-18lrjg1-MuiCircularProgress-root, .css-z01bqi{ // style mui loading circle
   color: #e62429!important;
   margin: 0 auto;
 }
