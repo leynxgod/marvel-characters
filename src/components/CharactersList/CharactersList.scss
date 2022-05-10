@@ -1,0 +1,42 @@
+.character-list-title{
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.character-list-characters{
+  display: flex;
+  flex-wrap: wrap;
+}
+.character-list-spinner{
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+}
+.character-list-search{
+  margin-top: 15px;
+  position: relative;
+  width: 195px;
+  span{
+    position: absolute;
+    color: #fff;
+    right: 1px;
+    top: 4px;
+    cursor: pointer;
+  }
+}
+.character-list-not-found{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 150px;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input { //style mui input
+  color: #fff!important;
+}
+.css-18lrjg1-MuiCircularProgress-root{ // style mui loading circle
+  color: #e62429!important;
+  margin: 0 auto;
+}

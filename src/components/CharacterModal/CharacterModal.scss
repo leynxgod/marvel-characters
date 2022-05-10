@@ -1,0 +1,35 @@
+.character-modal{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  background-color: #202020;
+}
+.character-modal-image{
+  display: flex;
+}
+.character-modal-wrap{
+  width: 100%;
+}
+.character-modal-name{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.character-modal-description{
+  color: #aaa;
+  margin: 15px 15px 0 15px;
+  font-size: 18px;
+}
+.character-modal-close{
+  position: absolute;
+  color: #fff;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}

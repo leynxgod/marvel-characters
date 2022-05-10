@@ -1,0 +1,43 @@
+.pagination{
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+}
+.pagination-hide{
+  display: none;
+}
+.pagination-page-numbers{
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  li{
+    padding: 10px;
+    cursor: pointer;
+  }
+  li:hover{
+    color: #e62429;
+  }
+  .pagination-hellip:hover{
+    color: #aaa;
+    cursor: default;
+  }
+  li.page-active{
+    color: #fff;
+    cursor: default;
+  }
+  li button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  li button:hover{
+    color: #e62429;
+  }
+  li button:disabled{
+    display: none;
+  }
+  li button:focus{
+  outline: none;
+}
+}
