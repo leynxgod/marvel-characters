@@ -1,0 +1,35 @@
+.slider{
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.window{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.items-wrapper{
+  height: 100%;
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+.arrow-left{
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  color: #e62429;
+  z-index: 1;
+}
+.arrow-right{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  color: #e62429;
+  z-index: 1;
+}
