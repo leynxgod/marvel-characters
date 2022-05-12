@@ -7,11 +7,13 @@
   align-items: center;
   justify-content: center;
   user-select: none;
-}
-
-.item-1{
-  background-color: #808080;
-}
-.item-2{
-  background-color: #808080;
+  background-color: #e62429;
+  span{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 0 450px;
+    text-align: center;
+  }
 }
