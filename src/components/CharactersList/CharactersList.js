@@ -46,7 +46,7 @@ const CharactersList = () => {
                 </span>
             </div>
             <div className='character-list-characters'>
-                {isLoading ? <CircularProgress/> :
+                {isLoading ? <div className='character-list-loading'><CircularProgress/></div> :
                     list.length > 0 &&
                     list.map(item => (
                         <div key={item.id}>

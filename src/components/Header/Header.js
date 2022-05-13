@@ -11,9 +11,9 @@ const Header = () => {
                 <img src={logo} alt="" />
             </div>
             <Slider>
-                <div className='header-slider-item item-1'><span>hello, it's my first pet project on React</span></div>
-                <div className='header-slider-item item-2'><span>Here you can look for some information about MARVEL character that you want to now and read information about them taken from the official website <br/> (if it is not classified)</span></div>
-                <div className='header-slider-item item-3'><img src={characters} alt="" width='100%'/></div>
+                <div className='header-slider-item'><span>hello, it's my first pet project on React</span></div>
+                <div className='header-slider-item'><span>Here you can look for some information about MARVEL character that you want to now and read information about them taken from the official website <br/> (if it is not classified)</span></div>
+                <div className='header-slider-item'><img src={characters} alt="" width='100%'/></div>
             </Slider>
         </div>
     );

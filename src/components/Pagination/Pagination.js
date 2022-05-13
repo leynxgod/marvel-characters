@@ -61,7 +61,7 @@ const Pagination = (props) => {
         <div className={props.isSearch === '' ? 'pagination' : 'pagination-hide'}>
             <ul className='pagination-page-numbers'>
                 <li>
-                    <button onClick={handlePrevButton} disabled={currentPage === pages[0] ? true : false}>Prev</button>
+                    <button onClick={handlePrevButton} disabled={currentPage === pages[0]}>Prev</button>
                 </li>
                 {minPageNumberLimit >= 1 && <li onClick={() => {
                     dispatch(setCurrentPage(1))
@@ -85,7 +85,7 @@ const Pagination = (props) => {
                 </li>
                 }
                 <li>
-                    <button onClick={handleNextButton} disabled={currentPage === pages[pages.length - 1] ? true : false}>Next</button>
+                    <button onClick={handleNextButton} disabled={currentPage === pages[pages.length - 1]}>Next</button>
                 </li>
             </ul>
         </div>

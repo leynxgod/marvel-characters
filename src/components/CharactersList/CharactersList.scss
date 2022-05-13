@@ -20,17 +20,22 @@
     cursor: pointer;
   }
 }
+.character-list-loading{
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
 .character-list-not-found{
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   font-size: 36px;
-  margin-top: 150px;
+  margin-top: 30vh;
 }
 .css-1x51dt5-MuiInputBase-input-MuiInput-input, .css-mnn31 { //style mui input
   color: #fff!important;
 }
 .css-18lrjg1-MuiCircularProgress-root, .css-z01bqi{ // style mui loading circle
   color: #e62429!important;
-  margin: 0 auto;
 }

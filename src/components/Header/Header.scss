@@ -2,7 +2,7 @@
   text-align: center;
   margin-bottom: 25px;
 }
-.header-slider-item{
+.header-slider-item:not(:last-child){
   display: flex;
   align-items: center;
   justify-content: center;
